@@ -1,13 +1,146 @@
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
+  font-family: 'Prompt', sans-serif;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #36454F;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    
+}
+
+.Header {
+  color: #feffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 70px;
+  align-items: center;
+  gap: 40px;
+}
+
+.Header--image {
+  border-radius: 5px;
+}
+.Header > p {
+  color: #CC5500;
+  margin-top: -20px;
+}
+.header--icons {
+  display: flex;
+  width: 25px;
+  
+}
+.header--icons:hover {
+  transform: scale(1.5);
+}
+.header--imgs {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.parent { 
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  gap: 80px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  color :#CC5500;
+  background-color: #41535e;
+  border-radius: 5px;
+  width: 500px;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 50px;
+  box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.body > h2 {
+  margin-bottom: 0px;
+  margin-top: 10px;  
+}
+.para--body {
+  display: flex;
+  color:#feffff;
+  font-size: 20px;
+  font-weight: 200;
+}
+.body--icons {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 25px;
+}
+.body--icons-img {
+  width: 55px;
+}
+.mail-color {
+  background-color: whitesmoke;
+}
+.mywork {
+  display: flex;
+  flex-direction: column;
+  color: #CC5500;
+  justify-content: center;
+  text-align: center;
+  background-color:#36454F
+}
+.myWork--button {
+  background-color:#41535e;
+  color:#CC5500;
+  height: 100px;
+  width:200px;
+  box-shadow:rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border: none;
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 25px;
+}
+.myWork--button:hover {
+  transform: scale(1.2);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  color:#CC5500;
+  text-decoration: none;
+}
+.nav--home:hover {
+  transform: scale(1.2);
+  
+}
+a {
+text-decoration: none;
+color: #CC5500;
+}
+
+.myProject--pics {
+  width: 400px;
+}
+.myProjects {
+  margin-left: 30px;
+  color: #CC5500;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  color:#CC5500;
+  text-decoration: none;
+  align-items: center;
 }

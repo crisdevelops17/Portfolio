@@ -4,8 +4,9 @@ import React from "react";
 function Contact () {
     return (
     <div className="contacts">
-        <h1>Email: crisdevelops17@gmail.com </h1>
-        <h1>Phone Numer: (719)654-7763</h1>
+        <h1>Contact me</h1>
+        <h2>Email: crisdevelops17@gmail.com </h2>
+        <h2>Phone Number: (719)654-7763</h2>
         <div className="header--imgs">
         <img onClick={() => {
       window.open("https://github.com/crisdevelops17", "_blank");

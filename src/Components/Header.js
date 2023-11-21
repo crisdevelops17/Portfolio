@@ -27,7 +27,7 @@ function Header () {
         <div className="parent">
         <div className="body">
         <h2 className="h2--body" >About me</h2>
-        <p className="para--body">Hi, my name is Cristian, I am a coding enthusiast. I am eager to learn and open to new challenges.
+        <p className="para--body">Hi, my name is Cristian. I am a coding enthusiast. I am eager to learn and open to new challenges.
         My primary focus is to land a job as a front end developer. My areas of expertise are html, css, Javascript, and React.Js. 
            </p>
            <div className="body--icons">

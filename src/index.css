@@ -132,6 +132,11 @@ color: #CC5500;
 .myProjects {
   margin-left: 30px;
   color: #CC5500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .contacts {
@@ -140,7 +145,10 @@ color: #CC5500;
   justify-content: center;
   text-align: center;
   gap: 40px;
-  color:#CC5500;
+  color:whitesmoke;
   text-decoration: none;
   align-items: center;
+}
+.contacts > h2{
+color: #CC5500;
 }
